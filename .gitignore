@@ -1,0 +1,29 @@
+# ================Dependencies=================================
+node_modules/
+
+# =============Build / Production Files========================
+dist/
+dist-ssr/
+build/
+
+# =================Environment Variables / Secrets===========================
+.env
+
+# ========================Django / Python================================
+__pycache__/
+
+# User uploaded media
+media/
+
+# ======================React / Vite============================
+.vite/
+vite.svg
+
+# ===================VS Code / IDE Files========================
+.vscode/*
+!.vscode/extensions.json
+
+.idea/
+
+# =================OS / System Files=========================
+.DS_Store
